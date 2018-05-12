@@ -1,0 +1,58 @@
+html{
+
+background: white;
+
+}
+
+
+h1 {
+
+color: blue;
+text-align: center;
+background: radial-gradient(yellow, orange, red);
+}
+
+
+h2 {
+
+color: blue;
+text-align: left;
+}
+
+
+h4 {
+
+color: red;
+text-align: center;
+}
+
+
+.topnav {
+
+background-color: red;
+overflow: hidden;
+}
+
+.topnav a {
+
+float: left;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+
+.topnav a:hover {
+
+background-color: orange;
+color: white;
+}
+
+
+.topnav a.active {
+
+background color: blue;
+color: white;
+}
