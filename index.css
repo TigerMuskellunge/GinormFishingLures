@@ -1,6 +1,6 @@
 html{
 
-background: white;
+background: black;
 
 }
 
@@ -55,4 +55,8 @@ color: white;
 
 background color: blue;
 color: white;
+}
+
+p {
+  color: red;
 }
