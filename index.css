@@ -83,8 +83,8 @@ p {
 .mySlides {display: none;}
 img {vertical-align: middle;}
 
-.slideshow {
-  max-width: 1000px;
+.slideshow-container {
+  max-width: 10000px;
   position: relative;
   margin: auto;
 }
