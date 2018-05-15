@@ -1,6 +1,6 @@
 html{
 
-background: white;
+background: black;
 
 }
 
@@ -135,12 +135,14 @@ img {vertical-align: middle;}
 
 table {
   border-collapse: collapse;
+  width: 100%
 }
 
 td, th {
-  border: 1px solid blue;
-  text-align: left;
-  cellpadding: 8px;
+  border: 1px solid orange;
+  text-align: center;
+  color: red;
+  padding: 8px;
 }
 
 tr:nth-child(even) {
