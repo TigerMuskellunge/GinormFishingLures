@@ -1,6 +1,6 @@
 html{
 
-background: black;
+background: white;
 
 }
 
@@ -131,4 +131,18 @@ img {vertical-align: middle;}
 }
 
 @media only screen and (max-width: 300px) {
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid blue;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: green;
 }
