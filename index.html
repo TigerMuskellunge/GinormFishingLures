@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
+<body>
 	<title>GINORM FISHING LURES</title>
 	<head>
-		<meta name="viewport" content="width=device-width,inital-scale=1">
+		<meta name="viewport" content="width=device-width,inital-scale=1"/>
 		<link rel="stylesheet" type="text/css" href="index.css">
-		<script src="index.js"></script>
 	</head>
-	<body>
+
 <h1>GINORM FISHING LURES</h1>
 <h4>(This is a School Project)</h4>
 <div class="topnav">
@@ -16,12 +16,12 @@
 <a class="active" href="About-Us.html">About Us</a>
 </div>
 
-<div class="slideshow">
+<div class="slideshow-container">
 
-<div class="mySlides fade">
-	<div class="number">1 / 9</div>
-	<img src="Spoon-edited.jpg" style="width:100%">
-</div>
+	<div class="mySlides fade">
+	  <div class="number">1 / 9</div>
+	  <img src="DSC02749.JPG" style="width:100%">
+	</div>
 
 <div class="mySlides fade">
 	<div class="number">2 / 9</div>
@@ -62,7 +62,6 @@
 	<div class="number">9 / 9</div>
 	<img src="DSC03355 cropped.jpg" style="width:100%">
 </div>
-<br>
 
 <div>
 	<span class="dot"></span>
@@ -93,5 +92,28 @@
 		<img src="DSC03357.JPG" style="height:375px;width:650px; align=right">
 		<img src="DSC02292.JPG" style="height:375px;width:650px;">
 		<img src="DSC03355 cropped.jpg" style="height:375px;width:650px; align=right">
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
 	</body>
 </html>
