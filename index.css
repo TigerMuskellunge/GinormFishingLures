@@ -1,7 +1,7 @@
 html{
 
 background: black;
-
+font-family: 'Abel', sans-serif;
 }
 
 
@@ -10,6 +10,7 @@ h1 {
 color: blue;
 text-align: center;
 background: radial-gradient(yellow, orange, red);
+font-size: 64px;
 }
 
 
@@ -25,6 +26,7 @@ h4 {
 color: red;
 text-align: center;
 font-size: 28px;
+
 }
 
 h6 {
@@ -84,6 +86,7 @@ a:hover {
 
 p {
   color: white;
+  font-size: 18px;
 }
 
 * {box-sizing: border-box;}
