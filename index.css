@@ -156,4 +156,5 @@ tr:nth-child(even) {
   width: 100%;
   background: radial-gradient(yellow, orange, red);
   text-align: left;
+  color: black;
 }
