@@ -24,6 +24,7 @@ h4 {
 
 color: red;
 text-align: center;
+font-size: 28px;
 }
 
 h6 {
@@ -147,4 +148,12 @@ td, th {
 
 tr:nth-child(even) {
   background-color: green;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: radial-gradient(yellow, orange, red);
+  text-align: left;
 }
